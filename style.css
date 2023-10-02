@@ -1,5 +1,5 @@
 body, html {
-    margin: 0, 0, 0, 0;
+    margin: 0;
     background-color: #F2F2F2;
 }
 
@@ -60,65 +60,103 @@ header h1 {
     font-style: italic;
     color: black;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.line {
+    background-color: gray;
+    width: 200px;
+    height: 2px;
+    /* coloca la linea en medio de la página */
+    margin: 0 auto;
+}
+
+main {
     margin-bottom: 60px;
 }
 
-.definicion {
+.num-section {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-style: bold;
+    color: gray;
+    left: -80px;
+}
+
+#definicion {
     max-width: 66.67%; /* Establece el ancho máximo del artículo al 66.67% del contenedor principal */
     margin: 0 auto; /* Centra el artículo horizontalmente */
     text-align: justify; /* Justifica el texto en el artículo si lo deseas */
 }
 
-.definicion h1 {
+#definicion h1 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-style: bold;
     color: rgb(51, 51, 51);
+    position: relative;
 }
 
-.definicion p {
+#definicion p {
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(51, 51, 51);
     text-align: justify;
 }
 
-.definicion img {
+#definicion img {
     width: 100%;
     height: auto;
 }
 
 footer {
-    background: #333333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/footer-backg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding: 3rem;
     color: white;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+#copyright {
+    position: absolute;
+    left: 80px;
 }
 
 footer p {
-    display: inline-block;
     margin: 0;
+    display: inline;
 }
 
 footer a {
     transition: color 0.3s ease;
     color: #fff;
     text-decoration: none;
+    position: relative;
 }
 
-footer section {
-    float: right;
+/* #contacto {
+    position: absolute;
+    right: 62%;
 }
 
 #mail {
-    position: relative;
-    right: 700px;
-    top: 15px;
+    position: absolute;
+    right: 50%;
+    display: inline-block;
+} */
+
+#comienzo {
+    position: absolute;
+    left: 80%;
 }
 
-footer section p {
-    position: relative;
-    right: 580px;
-    bottom: 15px;
+section {
+    margin: 0 auto;
 }
 
 footer a:hover {
