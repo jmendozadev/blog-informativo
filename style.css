@@ -1,0 +1,126 @@
+body, html {
+    margin: 0, 0, 0, 0;
+    background-color: #F2F2F2;
+}
+
+header {
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/coffee-backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    margin-bottom: 5.2rem; /* distancia entre el header y el main */
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 780px;
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-photo {
+    background-image: url('img/profile-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    position: absolute;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    bottom: -80px; /* distancia entre la foto de perfil y el nombre */
+    color: black;
+    position: absolute;
+}
+
+.article-updating {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.definicion {
+    max-width: 66.67%; /* Establece el ancho máximo del artículo al 66.67% del contenedor principal */
+    margin: 0 auto; /* Centra el artículo horizontalmente */
+    text-align: justify; /* Justifica el texto en el artículo si lo deseas */
+}
+
+.definicion h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-style: bold;
+    color: rgb(51, 51, 51);
+}
+
+.definicion p {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+    text-align: justify;
+}
+
+.definicion img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333333;
+    padding: 3rem;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer section {
+    float: right;
+}
+
+#mail {
+    position: relative;
+    right: 700px;
+    top: 15px;
+}
+
+footer section p {
+    position: relative;
+    right: 580px;
+    bottom: 15px;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
