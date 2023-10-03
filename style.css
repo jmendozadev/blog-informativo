@@ -39,7 +39,7 @@ header h1 {
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 1px solid white;
     width: 100px;
     height: 100px;
     bottom: -50px;
@@ -49,7 +49,7 @@ header h1 {
 .profile-name {
     font-size: 18px;
     font-family: 'Roboto Slab', serif;
-    bottom: -80px; /* distancia entre la foto de perfil y el nombre */
+    bottom: -78px; /* distancia entre la foto de perfil y el nombre */
     color: black;
     position: absolute;
 }
@@ -64,11 +64,12 @@ header h1 {
 }
 
 .line {
-    background-color: gray;
-    width: 200px;
+    background-color: #e6e6e6;
+    width: 270px;
     height: 2px;
     /* coloca la linea en medio de la página */
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 main {
@@ -84,30 +85,42 @@ main {
     left: -80px;
 }
 
-#definicion {
+.container {
     max-width: 66.67%; /* Establece el ancho máximo del artículo al 66.67% del contenedor principal */
     margin: 0 auto; /* Centra el artículo horizontalmente */
-    text-align: justify; /* Justifica el texto en el artículo si lo deseas */
 }
 
-#definicion h1 {
+#definicion h1, #tipos h1, .models h1 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-style: bold;
     color: rgb(51, 51, 51);
     position: relative;
+    margin: 0;
+    /* margin-bottom: 20px; */
 }
 
-#definicion p {
+.links {
+    text-decoration: none;
+    color: #42b4d6;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#definicion p, #tipos p, #tipos ul, .models p {
+    line-height: 1.5;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(51, 51, 51);
-    text-align: justify;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
-#definicion img {
+.image {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -138,17 +151,6 @@ footer a {
     text-decoration: none;
     position: relative;
 }
-
-/* #contacto {
-    position: absolute;
-    right: 62%;
-}
-
-#mail {
-    position: absolute;
-    right: 50%;
-    display: inline-block;
-} */
 
 #comienzo {
     position: absolute;
