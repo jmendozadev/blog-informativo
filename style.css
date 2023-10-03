@@ -72,6 +72,7 @@ header h1 {
     margin-bottom: 60px;
 }
 
+/* separacion entre el main y el footer */
 main {
     margin-bottom: 60px;
 }
@@ -85,19 +86,20 @@ main {
     left: -80px;
 }
 
+/* contenedor de toda la información del tema de la página */
 .container {
     max-width: 66.67%; /* Establece el ancho máximo del artículo al 66.67% del contenedor principal */
     margin: 0 auto; /* Centra el artículo horizontalmente */
+    margin-bottom: 20px;
 }
 
-#definicion h1, #tipos h1, .models h1 {
+.title {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-style: bold;
     color: rgb(51, 51, 51);
     position: relative;
     margin: 0;
-    /* margin-bottom: 20px; */
 }
 
 .links {
@@ -105,10 +107,19 @@ main {
     color: #42b4d6;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
+}
+
+.links:hover {
+    color: #42b4d6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section-header {
     margin-bottom: 20px;
 }
 
-#definicion p, #tipos p, #tipos ul, .models p {
+article p, article ul {
     line-height: 1.5;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
