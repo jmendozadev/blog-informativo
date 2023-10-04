@@ -1,4 +1,4 @@
-¿Qué es un listicle?
+# ¿Qué es un listicle?
 Es un tipo de artículo algo moderno que utiliza una lista como estructura temática.
 
 Es una forma de presentar contenido en línea que combina elementos de una lista con 
